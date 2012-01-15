@@ -79,8 +79,17 @@ a:hover {
 	margin-top: -8px;
 	color: #efe337;
 }
+#content .class-table td {
+	text-align:center;
+}
 #sidebar {
 	width: 200px;
+}
+#sidebar-x {
+	margin-left: -60px;
+}
+#sidebar-y {
+	margin-left: -300px;
 }
 #sidebar h1 {
 	font-family: 'Magra';
@@ -90,7 +99,7 @@ a:hover {
 	text-align: right;
 }
 #sidebar h2 {
-	font-family: 'Magra';
+	font-family: 'Ruda';
 	font-size: 16px;
 	color: #ba6600;
 }
