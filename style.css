@@ -1,0 +1,96 @@
+body {
+	background-color: #000000;
+	background-image: url('gui/body_bg.gif');
+	background-repeat: repeat-x;
+	margin: 0;
+	padding: 0;
+	color: #FFFFFF;
+	font-family: 'Jura';
+}
+a, a:visited {
+	color: #efe337;
+	text-decoration: none;
+}
+a:hover {
+	color: #000000;
+	text-decoration: underline;
+	background-color: #FFFFFF;
+}
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+#header {
+	height: 49px;
+	background-color: #45494f;
+	margin-bottom: 20px;
+	border-bottom: 1.5px #ba6600 solid;
+}
+#logo {
+	width: 412px;
+	height: 44px;
+	float: left;
+	padding: 5px 0px 2px 5px;
+}
+#navigation {
+	float: right;
+	font-family: 'Magra';
+}
+#navigation ul{
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+#navigation ul li{
+	display: inline;
+}
+#navigation ul li a{
+	float: left;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 15px 11px;
+	color: #FFFFFF;
+	font-family: 'Magra';
+}
+#navigation ul li a:visited{
+	color: #FFFFFF;
+}
+#navigation ul li a:hover, #navigation ul li .current{
+	color: #FFFFFF;
+	background-color: #ba6600;
+}
+#main-body {
+	width: 880px;
+	border: 2px solid #45494f;
+	background-color: #22252a;
+	padding: 5px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+#content {
+	width: 670px;
+}
+#content strong {
+	color: #ba6600;
+}
+#content h1 {
+	font-family: 'Magra';
+	margin-top: -8px;
+	color: #efe337;
+}
+#sidebar {
+	width: 200px;
+}
+#sidebar h1 {
+	font-family: 'Magra';
+	font-size: 22px;
+	color: #efe337;
+	margin-top: -6px;
+	text-align: right;
+}
+#sidebar h2 {
+	font-family: 'Magra';
+	font-size: 16px;
+	color: #ba6600;
+}
